@@ -1,13 +1,12 @@
 import Navbar from "../components/Navbar"
-import Teams from "../components/Teams"
 
-const Home = () => {
+const Cadastro = () => {
     return(
         <div>
             <Navbar />
-            <Teams />
+            <h1>Cadastro de Jogadores</h1>
         </div>
     )
 }
 
-export default Home
+export default Cadastro
