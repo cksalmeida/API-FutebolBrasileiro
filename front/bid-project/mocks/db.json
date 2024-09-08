@@ -1,0 +1,69 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "logo": "https://api.sofascore.app/api/v1/team/1963/image",
+        "name": "Palmeiras",
+        "description": "Sociedade Esportiva Palmeiras, fundada em 1914.",
+        "city": "São Paulo",
+        "titles": 11
+      },
+      {
+        "id": 2,
+        "logo": "https://api.sofascore.app/api/v1/team/5981/image",
+        "name": "Flamengo",
+        "description": "Clube de Regatas do Flamengo, fundado em 1895.",
+        "city": "Rio de Janeiro",
+        "titles": 7
+      },
+      {
+        "id": 3,
+        "logo": "https://api.sofascore.app/api/v1/team/1981/image",
+        "name": "São Paulo",
+        "description": "São Paulo Futebol Clube, fundado em 1930.",
+        "city": "São Paulo",
+        "titles": 6
+      },
+      {
+        "id": 4,
+        "logo": "https://api.sofascore.app/api/v1/team/1957/image",
+        "name": "Corinthians",
+        "description": "Sport Club Corinthians Paulista, fundado em 1910.",
+        "city": "São Paulo",
+        "titles": 7
+      },
+      {
+        "id": 5,
+        "logo": "https://api.sofascore.app/api/v1/team/1966/image",
+        "name": "Internacional",
+        "description": "Sport Club Internacional, fundado em 1909.",
+        "city": "Porto Alegre",
+        "titles": 3
+      },
+      {
+        "id": 6,
+        "logo": "https://api.sofascore.app/api/v1/team/5926/image",
+        "name": "Grêmio",
+        "description": "Grêmio Foot-Ball Porto Alegrense, fundado em 1903.",
+        "city": "Porto Alegre",
+        "titles": 2
+      },
+      {
+        "id": 7,
+        "logo": "https://api.sofascore.app/api/v1/team/1977/image",
+        "name": "Atlético Mineiro",
+        "description": "Clube Atlético Mineiro, fundado em 1908.",
+        "city": "Belo Horizonte",
+        "titles": 2
+      },
+      {
+        "id": 8,
+        "logo": "https://api.sofascore.app/api/v1/team/1954/image",
+        "name": "Cruzeiro",
+        "description": "Cruzeiro Esporte Clube, fundado em 1921.",
+        "city": "Belo Horizonte",
+        "titles": 4
+      }
+    ]
+  }
+  
