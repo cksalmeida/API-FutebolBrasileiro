@@ -39,11 +39,17 @@ const TeamsPage = () => {
         <div className="max-w-md shadow-md rounded-md p-6 bg-white">
           {team ? (
             <>
-              <img src={team.logo} alt={`${team.name} logo`} className="w-24 h-24 mx-auto mb-4" />
+              <img src={team.logoUrl} alt={`${team.name} logo`} className="w-24 h-24 mx-auto mb-4" />
               <h2 className="text-2xl font-bold mb-4 text-center">{team.name}</h2>
               <p className="mb-4 text-center">{team.description}</p>
               <p><strong>Cidade:</strong> {team.city}</p>
-              <p><strong>Títulos:</strong> {team.titles}</p>
+              <p><strong>Estádio:</strong> {team.stadium}</p>
+              <p><strong>Fundação:</strong> {team.foundation}</p>
+              <p><strong>Cores:</strong> {team.colors.join(', ')}</p>
+              <p><strong>Treinador:</strong> {team.coach}</p>
+              <p><strong>Títulos:</strong> {team.titles.length > 0 ? team.titles.join(', ') : 'Nenhum título'} </p>
+              <p><strong>Histórico:</strong> {team.history}</p>
+              <p><strong>Site Oficial:</strong> <a href={team.officialWebsite} target="_blank" rel="noopener noreferrer" className="text-blue-500">{team.officialWebsite}</a></p>
             </>
           ) : (
             <p>Time não encontrado.</p>
