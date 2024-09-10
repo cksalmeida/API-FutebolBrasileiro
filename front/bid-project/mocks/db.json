@@ -1,116 +1,153 @@
 {
   "teams": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Palmeiras",
       "logoUrl": "https://api.sofascore.app/api/v1/team/1963/image",
       "description": "O Palmeiras é um clube de futebol brasileiro.",
       "city": "São Paulo",
       "stadium": "Allianz Parque",
       "foundation": "1914-08-26",
-      "colors": ["Verde", "Branco"],
+      "colors": [
+        "Verde",
+        "Branco"
+      ],
       "coach": "Abel Ferreira",
-      "titles": [10],
+      "titles": [
+        10
+      ],
       "officialWebsite": "https://www.palmeiras.com.br",
       "history": "O Palmeiras é um dos clubes mais vitoriosos do Brasil."
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Flamengo",
       "logoUrl": "https://api.sofascore.app/api/v1/team/5981/image",
       "description": "O Flamengo é um dos clubes mais populares do Brasil.",
       "city": "Rio de Janeiro",
       "stadium": "Maracanã",
       "foundation": "1895-11-17",
-      "colors": ["Vermelho", "Preto"],
+      "colors": [
+        "Vermelho",
+        "Preto"
+      ],
       "coach": "Jorge Sampaoli",
-      "titles": [7],
+      "titles": [
+        7
+      ],
       "officialWebsite": "https://www.flamengo.com.br",
       "history": "O Flamengo tem uma história rica e é conhecido por sua grande torcida."
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "São Paulo",
       "logoUrl": "https://api.sofascore.app/api/v1/team/1981/image",
       "description": "O São Paulo é um dos clubes mais tradicionais do Brasil.",
       "city": "São Paulo",
       "stadium": "Morumbi",
       "foundation": "1930-08-25",
-      "colors": ["Tricolor"],
+      "colors": [
+        "Tricolor"
+      ],
       "coach": "Dorival Júnior",
-      "titles": [6],
+      "titles": [
+        6
+      ],
       "officialWebsite": "https://www.saopaulofc.net",
       "history": "O São Paulo é conhecido por suas conquistas nacionais e internacionais."
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Corinthians",
       "logoUrl": "https://api.sofascore.app/api/v1/team/1957/image",
       "description": "O Corinthians é um clube de futebol paulista.",
       "city": "São Paulo",
       "stadium": "Arena Corinthians",
       "foundation": "1910-09-01",
-      "colors": ["Preto", "Branco"],
+      "colors": [
+        "Preto",
+        "Branco"
+      ],
       "coach": "Fernando Lázaro",
-      "titles": [7],
+      "titles": [
+        7
+      ],
       "officialWebsite": "https://www.corinthians.com.br",
       "history": "O Corinthians é um dos clubes mais tradicionais do futebol brasileiro."
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Internacional",
       "logoUrl": "https://api.sofascore.app/api/v1/team/1966/image",
       "description": "O Internacional é um dos principais clubes do sul do Brasil.",
       "city": "Porto Alegre",
       "stadium": "Beira-Rio",
       "foundation": "1909-04-04",
-      "colors": ["Vermelho", "Branco"],
+      "colors": [
+        "Vermelho",
+        "Branco"
+      ],
       "coach": "Eduardo Coudet",
-      "titles": [6],
+      "titles": [
+        6
+      ],
       "officialWebsite": "https://www.internacional.com.br",
       "history": "O Internacional é conhecido por suas conquistas nacionais e internacionais."
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Grêmio",
       "logoUrl": "https://api.sofascore.app/api/v1/team/5926/image",
       "description": "O Grêmio é um dos principais clubes do sul do Brasil.",
       "city": "Porto Alegre",
       "stadium": "Arena do Grêmio",
       "foundation": "1903-09-15",
-      "colors": ["Tricolor"],
+      "colors": [
+        "Tricolor"
+      ],
       "coach": "Renato Portaluppi",
-      "titles": [5],
+      "titles": [
+        5
+      ],
       "officialWebsite": "https://www.gremio.net",
       "history": "O Grêmio é conhecido por sua forte presença no futebol brasileiro."
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Atlético-Mineiro",
       "logoUrl": "https://api.sofascore.app/api/v1/team/1977/image",
       "description": "O Atlético Mineiro é um clube de futebol da cidade de Belo Horizonte.",
       "city": "Belo Horizonte",
       "stadium": "Arena MRV",
       "foundation": "1908-03-25",
-      "colors": ["Preto", "Branco"],
+      "colors": [
+        "Preto",
+        "Branco"
+      ],
       "coach": "Gabriel Milito",
       "titles": [],
       "officialWebsite": "https://atletico.com.br",
       "history": "O Atlético Mineiro é um clube de futebol da cidade de Belo Horizonte."
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Cruzeiro",
       "logoUrl": "https://api.sofascore.app/api/v1/team/1954/image",
       "description": "O Cruzeiro é um dos clubes mais tradicionais de Minas Gerais.",
       "city": "Belo Horizonte",
       "stadium": "Mineirão",
       "foundation": "1921-01-02",
-      "colors": ["Azul", "Branco"],
+      "colors": [
+        "Azul",
+        "Branco"
+      ],
       "coach": "Paulo Pezzolano",
-      "titles": [4],
+      "titles": [
+        4
+      ],
       "officialWebsite": "https://www.cruzeiro.com.br",
       "history": "O Cruzeiro é conhecido por sua forte presença no futebol brasileiro e suas conquistas."
     }
-  ]
+  ],
+  "players": []
 }

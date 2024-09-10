@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './routes/Home'
 import Cadastro from './routes/Cadastro'
 import TeamsPage from './routes/TeamsPage'
+import EditPlayerPage from './routes/EditPlayPage'
 import './index.css'
 
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: '/teams/:id',
     element: <TeamsPage />,
+  },
+  {
+    path: '/edit-player/:playerId',
+    element: <EditPlayerPage />,
   },
 ])
 
