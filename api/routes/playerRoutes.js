@@ -8,4 +8,7 @@ playerRoutes.get("/players", playerController.getAllPlayers);
 // Endpoint para cadastrar os jogadores
 playerRoutes.post("/players", playerController.createPlayer);
 
+// Endpoint para deletar os jogadores
+playerRoutes.delete("/players/:id", playerController.deletePlayer);
+
 export default playerRoutes;

@@ -26,6 +26,17 @@ class PlayerService {
       throw new Error("Erro ao criar jogador.");
     }
   }
+
+  async delete(id) {
+    try {
+      await Player.findByIdAndDelete(id);
+      console.log(`Jogador com a id:${id} foi deletado`);
+    } catch (error) {
+      console.log(error);
+      throw new Error("Erro ao excluir jogador.");
+    }
+  }
+  
 }
 
 export default new PlayerService();
