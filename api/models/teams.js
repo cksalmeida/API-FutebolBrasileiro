@@ -13,6 +13,6 @@ const teamSchema = new mongoose.Schema({
   history: String,
 });
 
-const Team = mongoose.model('Team', teamSchema)
+const Team = mongoose.model("Team", teamSchema);
 
-export default Team
+export default Team;
