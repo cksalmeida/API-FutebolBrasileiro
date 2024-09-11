@@ -1,7 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import playerRoutes from './routes/playerRoutes.js';  // Importa suas rotas de jogadores
-// Import outros routes caso existam, como Team
+import teamRoutes from './routes/teamRoutes.js'
+import playerRoutes from './routes/playerRoutes.js';
+
 
 const app = express();
 
@@ -17,7 +18,7 @@ app.get("/", (req, res) => {
   res.json({ message: "API de Futebol Brasileiro está rodando!" });
 });
 
-// Usa as rotas de jogadores
+app.use('/api', teamRoutes)
 app.use('/api', playerRoutes);
 
 // Inicia o servidor
