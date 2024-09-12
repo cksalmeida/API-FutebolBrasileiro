@@ -42,5 +42,26 @@ const deletePlayer = async (req, res) => {
   }
 };
 
+const updatePlayer = async (req, res) => {
+  try {
+    if (ObjectId.isValid(req.params.id)) {
+      const id = req.params.id;
+      const { name, position, teamId, birthDate } = req.body;
+      const player = await playerService.update(
+        id,
+        name,
+        position,
+        teamId,
+        birthDate
+      );
+      res.status(200).json({ player });
+    } else {
+      res.sendStatus(400);
+    }
+  } catch (error) {
+    console.log(error);
+    res.sendStatus(500);
+  }
+};
 
-export default { getAllPlayers, createPlayer, deletePlayer };
+export default { getAllPlayers, createPlayer, deletePlayer, updatePlayer };

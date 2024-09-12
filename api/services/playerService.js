@@ -36,7 +36,25 @@ class PlayerService {
       throw new Error("Erro ao excluir jogador.");
     }
   }
-  
+
+  async update(id, name, position, teamId, birthDate) {
+    try{
+      const updatePlayer = await Player.findByIdAndUpdate(
+        id,
+        {
+          name,
+          position,
+          teamId,
+          birthDate
+        },
+        {new: true}
+      )
+      console.log(`Dados do jogador com id:${id} alterados com sucesso.`)
+    } catch (error){
+      console.log(error)
+    }
+  }
+
 }
 
 export default new PlayerService();

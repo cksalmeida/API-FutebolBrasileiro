@@ -11,4 +11,7 @@ playerRoutes.post("/players", playerController.createPlayer);
 // Endpoint para deletar os jogadores
 playerRoutes.delete("/players/:id", playerController.deletePlayer);
 
+// Endpoint para atualizar os jogadores
+playerRoutes.put("/game/:id", playerController.updatePlayer)
+
 export default playerRoutes;
