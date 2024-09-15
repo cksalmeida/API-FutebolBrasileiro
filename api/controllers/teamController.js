@@ -10,4 +10,19 @@ const getAllTeams = async (req, res) => {
   }
 };
 
-export default { getAllTeams };
+const getOneTeam = async (req, res) => {
+  try {
+    const teamId = req.params.id;
+    const teams = await TeamService.getOne(teamId);
+    res.status(200).json({ teams: teams });
+  } catch (error) {
+    console.error(error.message);
+    if (error.message === "Time não encontrado") {
+      res.status(404).json({ error: error.message });
+    } else {
+      res.status(500).json({ error: "Erro interno no servidor." });
+    }
+  }
+};
+
+export default { getAllTeams, getOneTeam };
