@@ -31,7 +31,7 @@ const deletePlayer = async (req, res) => {
   try {
     if (ObjectId.isValid(req.params.id)) {
       const id = req.params.id;
-      await playerService.delete(id); // Altere para 'delete'
+      await playerService.delete(id); 
       res.sendStatus(204);
     } else {
       res.sendStatus(400);

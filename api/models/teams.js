@@ -11,6 +11,12 @@ const teamSchema = new mongoose.Schema({
   logoUrl: String,
   officialWebsite: String,
   history: String,
+  players: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Player",
+    },
+  ],
 });
 
 const Team = mongoose.model("Team", teamSchema);
