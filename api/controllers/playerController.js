@@ -11,6 +11,17 @@ const getAllPlayers = async (req, res) => {
   }
 };
 
+const getOnePlayer = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const player = await playerService.getOne(id);
+    res.status(200).json({ player });
+  } catch (error) {
+    console.log(error);
+    res.status(404).json({ error: "Erro ao buscar jogador." });
+  }
+};
+
 const createPlayer = async (req, res) => {
   try {
     const { name, position, teamId, birthDate } = req.body;
@@ -64,4 +75,4 @@ const updatePlayer = async (req, res) => {
   }
 };
 
-export default { getAllPlayers, createPlayer, deletePlayer, updatePlayer };
+export default { getAllPlayers, getOnePlayer, createPlayer, deletePlayer, updatePlayer };

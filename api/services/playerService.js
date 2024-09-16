@@ -11,6 +11,19 @@ class PlayerService {
     }
   }
 
+  async getOne(id) {
+    try {
+      const player = await Player.findById(id);
+      if (!player) {
+        throw new Error("Jogador não encontrado.");
+      }
+      return player;
+    } catch (error) {
+      console.log(error);
+      throw new Error("Erro ao buscar jogador.");
+    }
+  }
+
   async create(name, position, teamId, birthDate) {
     try {
       const newPlayer = new Player({
@@ -20,7 +33,7 @@ class PlayerService {
         birthDate,
       });
       await newPlayer.save();
-      return newPlayer;  // Retorna o novo jogador após salvar
+      return newPlayer; // Retorna o novo jogador após salvar
     } catch (error) {
       console.log(error);
       throw new Error("Erro ao criar jogador.");
@@ -38,23 +51,22 @@ class PlayerService {
   }
 
   async update(id, name, position, teamId, birthDate) {
-    try{
+    try {
       const updatePlayer = await Player.findByIdAndUpdate(
         id,
         {
           name,
           position,
           teamId,
-          birthDate
+          birthDate,
         },
-        {new: true}
-      )
-      console.log(`Dados do jogador com id:${id} alterados com sucesso.`)
-    } catch (error){
-      console.log(error)
+        { new: true }
+      );
+      console.log(`Dados do jogador com id:${id} alterados com sucesso.`);
+    } catch (error) {
+      console.log(error);
     }
   }
-
 }
 
 export default new PlayerService();
