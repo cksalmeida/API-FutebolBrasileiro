@@ -46,6 +46,39 @@ Exemplo de resposta:
 }
 ```
 
+### GET /player
+
+Endpoint responsável por buscar um jogador em específico.
+
+#### Parâmetros: 
+id: ID do jogador a ser pesquisado.
+
+#### Respostas:
+##### OK! 200
+Código de retorno processo bem sucedido, você receberá os dados do jogador pesquisado.
+
+Exemplo de requisição:
+
+```
+{
+    "name": "Jonathan Calleri",
+    "position": "Atacante",
+    "teamID": "66e70a2aa435c23cba00d9cd",
+    "birthDate": 19-06-1995
+}
+```
+
+#### Não encontrado! 404
+Caso essa resposta aconteça, significa que o jogador com o ID fornecido não foi encontrado.
+
+Exemplo de resposta:
+
+```
+{
+  "error": "Erro ao buscar jogador"
+}
+```
+
 ### POST /players
 
 ### DELETE /players/
