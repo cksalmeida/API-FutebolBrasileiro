@@ -294,6 +294,6 @@ Exemplo de resposta:
 
 ```
 {
-    "err": "Erro ao excluir o jogador."
+    "error": "Erro ao excluir o jogador."
 }
 ```
