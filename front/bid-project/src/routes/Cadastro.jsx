@@ -50,9 +50,9 @@ const Cadastro = () => {
   };
 
   return (
-    <div>
+    <div className="h-screen">
       <Navbar />
-      <h1 className="text-2xl font-bold text-center mb-6">Cadastro de Jogadores</h1>
+      <h1 className="text-2xl font-bold text-center mt-4 mb-6">Cadastro de Jogadores</h1>
       <div className="max-w-md mx-auto p-4 border rounded shadow-md">
         {error && <div className="bg-red-200 text-red-700 p-2 mb-4 rounded">{error}</div>}
         {success && <div className="bg-green-200 text-green-700 p-2 mb-4 rounded">{success}</div>}

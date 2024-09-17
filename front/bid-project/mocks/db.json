@@ -149,5 +149,34 @@
       "history": "O Cruzeiro é conhecido por sua forte presença no futebol brasileiro e suas conquistas."
     }
   ],
-  "players": []
+  "players": [
+    {
+      "id": "8473",
+      "name": "Davi Mathais de Almeida",
+      "position": "Volante",
+      "teamId": "3",
+      "birthDate": "2005-03-30"
+    },
+    {
+      "id": "64a8",
+      "name": "Fernando Prass ",
+      "position": "Goleiro",
+      "teamId": "1",
+      "birthDate": "1984-06-15"
+    },
+    {
+      "id": "1fe3",
+      "name": "Gabriel Barbosa",
+      "position": "Atacante",
+      "teamId": "2",
+      "birthDate": "1990-11-15"
+    },
+    {
+      "id": "adaf",
+      "name": "Lucas Moura",
+      "position": "Meio Campo",
+      "teamId": "3",
+      "birthDate": "1988-01-13"
+    }
+  ]
 }

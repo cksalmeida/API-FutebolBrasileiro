@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 const Teams = () => {
     
   return (
-    <div className="bg-green-400 flex items-center h-16">
+    <div className="flex items-center h-20">
       <div className="flex m-auto gap-5 md:gap-10 lg:gap-16">
         <Link to="/teams/1">
           <img src={Palmeiras} className="w-10" alt="Palmeiras logo" />
