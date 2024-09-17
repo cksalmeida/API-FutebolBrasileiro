@@ -81,7 +81,6 @@ Exemplo de resposta:
 
 ### POST /players
 
-### - POST /game
 Endpoint responsável por cadastrar um novo jogador no banco de dados.
 
 #### Parâmetros:
