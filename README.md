@@ -29,7 +29,7 @@ Exemplo de resposta:
             "name": "Memphis Depay",
             "position": "Atacante",
             "teamID": "66e709a4a435c23cba00d9bf",
-            "birthDate": 13/02/1994
+            "birthDate": 13-02-1994
         }
     ]
 }
