@@ -2,9 +2,9 @@
 
 Essa API foi desenvolvida para o Boletim Informativo Diário (BID) da Confederação Brasileira de Futebol (CBF). Nele, são feitos os registros dos atletas autorizados a participar das competições oficiais. O sistema conta com um CRUD (create, read, update, delete) para realizar as operações.
 
-## Endpoints (atletas)
+## Endpoints (Players)
 
-### GET /players
+### GET api/players
 Endpoint responsável por listar todos os jogadores cadastrados no banco de dados.
 
 #### Parâmetros:
@@ -46,7 +46,7 @@ Exemplo de resposta:
 }
 ```
 
-### GET /players/
+### GET api/players/:id
 
 Endpoint responsável por buscar um jogador em específico.
 
@@ -79,7 +79,7 @@ Exemplo de resposta:
 }
 ```
 
-### POST /players
+### POST api/players
 
 Endpoint responsável por cadastrar um novo jogador no banco de dados.
 
@@ -117,7 +117,7 @@ Exemplo de resposta:
 }
 ```
 
-### DELETE /players/
+### DELETE api/players/
 
 Endpoint responsável por deletar um jogador em específico pelo seu ID.
 
@@ -152,7 +152,7 @@ Exemplo de resposta:
 }
 ```
 
-### PUT /game/
+### PUT api/players/
 
 Endpoint responsável por atualizar as informações de um jogador em específico pelo seu ID.
 
@@ -216,7 +216,7 @@ Exemplo de resposta:
 
 ## Endpoints (times)
 
-### GET /teams
+### GET api/teams
 
 Endpoint responsável por listar todos os times cadastrados no banco de dados.
 
@@ -255,7 +255,7 @@ Exemplo de resposta:
 }
 ```
 
-### GET /teams/
+### GET api/teams/
 
 Endpoint responsável por buscar um time em específico.
 
