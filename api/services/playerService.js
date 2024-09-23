@@ -13,7 +13,7 @@ class PlayerService {
 
   async getOne(id) {
     try {
-      const player = await Player.findById(id);
+      const player = await Player.findById(id).populate('teamId');
       if (!player) {
         throw new Error("Jogador não encontrado.");
       }
