@@ -41,6 +41,4 @@ To get a local copy of the project up and running, follow these steps:
 
 # Authors 👨‍💻
 
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/100139909?v=4" width=115><br><sub>Davi Mathais</sub>](https://github.com/cksalmeida)
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/150835786?v=4" width=115><br><sub>João Barreto</sub>](https://github.com/jaobarreto)
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/125226168?v=4" width=115><br><sub>Luiz França</sub>](https://github.com/luizgfr)
+[<img loading="lazy" src="https://avatars.githubusercontent.com/u/100139909?v=4" width=115><br><sub>Davi Mathais</sub>](https://github.com/cksalmeida) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/150835786?v=4" width=115><br><sub>João Barreto</sub>](https://github.com/jaobarreto) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/125226168?v=4" width=115><br><sub>Luiz França</sub>](https://github.com/luizgfr)
