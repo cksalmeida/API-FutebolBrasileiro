@@ -1,4 +1,4 @@
-# <img src="./imagens/logo.png" alt="Logotype" style="margin-left: 20px; vertical-align: middle; width: 30px" /> Rescue Center
+# <img src="https://api.sofascore.app/api/v1/unique-tournament/325/image/dark" alt="Logotype" style="margin-left: 20px; width: 30px" /> Brasileirão 2024
 
 This project consists of an REST API for the Brazilian football championship.
 
